@@ -15,6 +15,7 @@ public class ToolPage {
         return this;
     }
 
+    //add to test
     public IdeaMatrixPage goToIdeaMatrixFromToolPage(){
         $("#item-matrix").click();
         return page(IdeaMatrixPage.class);
